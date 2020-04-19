@@ -15,7 +15,7 @@
     "sharedTheme": {
       "isPortalSupport": true,
       "useHeader": false,
-      "useLogo": false
+      "useLogo": true
     }
   },
   "portalUrl": "https://mohawkarcgis.maps.arcgis.com",
@@ -129,7 +129,17 @@
       "bottom": 0
     },
     "itemId": "0a858d31e35d431183bb16f9d41079df",
-    "mapOptions": {},
+    "mapOptions": {
+      "extent": {
+        "xmin": -8943076.75833059,
+        "ymin": 5468124.502675936,
+        "xmax": -8710708.192343565,
+        "ymax": 5602042.176231615,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    },
     "id": "map",
     "portalUrl": "https://mohawkarcgis.maps.arcgis.com",
     "mapRefreshInterval": {
@@ -220,5 +230,6 @@
   "dataSource": {
     "dataSources": {},
     "settings": {}
-  }
+  },
+  "logoLink": null
 }
